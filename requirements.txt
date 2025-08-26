@@ -1,0 +1,6 @@
+torch
+pennylane
+numpy
+pandas
+scikit-learn
+tqdm
