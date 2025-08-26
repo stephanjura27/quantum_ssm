@@ -1,7 +1,7 @@
 # Q-SSM: Quantum-Inspired State Space Model for Long-Horizon Multivariate Time Series Forecasting
 
-This repository contains the official PyTorch + PennyLane implementation of **Q-SSM**, a quantum-inspired state space model designed for **long-horizon forecasting** of multivariate time series.  
-Q-SSM combines a lightweight recurrent state-space backbone with a **learnable quantum-inspired gating mechanism**, ensuring both efficiency and improved accuracy over strong baselines such as **S-Mamba**, **Autoformer**, and **Informer**.
+This repository contains the official PyTorch + PennyLane implementation of **Q-SSM**, a quantum-optimized state space model designed for **long-horizon forecasting** of multivariate time series.  
+Q-SSM combines a lightweight recurrent state-space backbone with a **learnable quantum gating mechanism**, ensuring both efficiency and improved accuracy over strong baselines such as **S-Mamba**, **Autoformer**, and **Informer**.
 
 ---
 
