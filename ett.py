@@ -160,7 +160,7 @@ class QTemporal(nn.Module):
         z1 = qubit_z(self.theta1, self.phi1)
         z2 = qubit_z(self.theta2, self.phi2)
         g  = torch.sigmoid(self.w1*z1 + self.w2*z2 + self.b_g)  # [scalar]
-        # clamp pentru a evita „poarta moartă”
+        # clamp to avoid "dead gate", i.e gradient problems :)
         g  = torch.clamp(g, self.g_min, self.g_max)
         return g
 
